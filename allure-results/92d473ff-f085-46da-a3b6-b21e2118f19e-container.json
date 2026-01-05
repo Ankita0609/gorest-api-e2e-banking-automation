@@ -1,0 +1,1 @@
+{"uuid":"92d473ff-f085-46da-a3b6-b21e2118f19e","name":"e2e.GoRestE2ETest","children":["c96db56a-05ea-47f1-a791-2c89500a4726"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1767598023089,"stop":1767598023091}],"afters":[],"start":1767598019762,"stop":1767598024685}

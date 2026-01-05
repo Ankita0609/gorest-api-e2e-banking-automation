@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GoRest API Automation Suite">
+
+    <test name="E2E and Negative Tests">
+        <classes>
+            <class name="e2e.GoRestE2ETest"/>
+            <class name="negative.NegativeUserTest"/>
+        </classes>
+    </test>
+
+</suite>

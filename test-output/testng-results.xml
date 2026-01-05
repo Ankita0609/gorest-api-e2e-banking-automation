@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-05T15:30:40 IST" name="Default suite" finished-at="2026-01-05T15:30:48 IST" duration-ms="7990">
+    <groups>
+    </groups>
+    <test started-at="2026-01-05T15:30:40 IST" name="Default test" finished-at="2026-01-05T15:30:48 IST" duration-ms="7990">
+      <class name="negative.NegativeUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:negative.NegativeUserTest@31190526]" started-at="2026-01-05T15:30:40 IST" name="setup" finished-at="2026-01-05T15:30:41 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUserIdShouldReturn404()[pri:0, instance:negative.NegativeUserTest@31190526]" started-at="2026-01-05T15:30:41 IST" name="invalidUserIdShouldReturn404" finished-at="2026-01-05T15:30:44 IST" duration-ms="2883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserIdShouldReturn404 -->
+      </class> <!-- negative.NegativeUserTest -->
+      <class name="e2e.GoRestE2ETest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:e2e.GoRestE2ETest@f5958c9]" started-at="2026-01-05T15:30:44 IST" name="setup" finished-at="2026-01-05T15:30:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userLifecycleE2E()[pri:0, instance:e2e.GoRestE2ETest@f5958c9]" started-at="2026-01-05T15:30:44 IST" name="userLifecycleE2E" finished-at="2026-01-05T15:30:48 IST" duration-ms="4500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLifecycleE2E -->
+      </class> <!-- e2e.GoRestE2ETest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
